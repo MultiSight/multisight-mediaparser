@@ -44,6 +44,7 @@ namespace MEDIA_PARSER
         MEDIA_TYPE_MJPEG,
         // Audio Types
         MEDIA_TYPE_PCM_MULAW,
+        MEDIA_TYPE_PCM_ALAW,
         MEDIA_TYPE_LINEAR_16BIT, // PCM 16-bit "raw"
         // Meta Data
         MEDIA_TYPE_META,
@@ -100,6 +101,7 @@ namespace MEDIA_PARSER
     const char MIME_TYPE_H264_NSD[] = "video/h264";
     const char MIME_TYPE_MJPEG[] = "video/JPEG";
     const char MIME_TYPE_PCM_MULAW[] = "audio/basic";
+    const char MIME_TYPE_PCM_ALAW[] = "audio/basic";
     const char MIME_TYPE_LINEAR_16BIT[] = "audio/L16"; // RFC 4856
 
     //=======================================================
@@ -110,6 +112,7 @@ namespace MEDIA_PARSER
     const char STRING_H264[] = "H264";
     const char STRING_MJPEG[] = "JPEG";
     const char STRING_PCM_MULAW[] = "PCM_MULAW";
+    const char STRING_PCM_ALAW[] = "PCM_ALAW";
     const char STRING_LINEAR_16BIT[] = "LINEAR_16BIT";
     const char STRING_META[] = "META";
 
@@ -121,6 +124,7 @@ namespace MEDIA_PARSER
     const char MEDIA_TYPE_STRING_H264[] = "H.264";
     const char MEDIA_TYPE_STRING_MJPEG[] = "JPEG";
     const char MEDIA_TYPE_STRING_PCM_MULAW[] = "G711";
+    const char MEDIA_TYPE_STRING_PCM_ALAW[] = "G711";
     const char MEDIA_TYPE_STRING_LINEAR_16BIT[] = "LINEAR_16BIT";
     const char MEDIA_TYPE_STRING_META[] = "META";
 
